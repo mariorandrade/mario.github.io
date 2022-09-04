@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="pCard_card">
+            
+        <div class="pCard_up">
+            <div class="pCard_text">
+                <h2>Mario Andrade</h2>
+                <p>Outsystems Frontend Developer</p>
+            </div>
+            
+            <div class="pCard_add"><i class="fa fa-plus fa-plus"></i></div>
+        </div>
+       
+        
+        <div class="pCard_back">
+            <a href="#"><i class="fa fa-linkedin fa-2x fa-fw"></i></a>
+            <a href="#"><i class="fa fa-medium fa-2x fa-fw"></i></a> <br>
+            <a href="#"><i class="fa fa-codepen fa-2x fa-fw"></i></a>
+        </div>  
+        
+    </div>
+    <script type="text/javascript">
+       var btn = document.querySelector('.pCard_add');
+       var card = document.querySelector('.pCard_card');
+
+       btn.addEventListener('click', function(e) {
+        card.classList.toggle('pCard_on');
+
+        btn.querySelector('i').classList.toggle('fa-minus');
+       })
+    </script>
+</body>
+</html>
