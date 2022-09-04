@@ -17,6 +17,10 @@
     transition: .3s ease-in-out;
 }
 
+.pCard_card .pCard_back img {
+    width:20%;
+}
+
 .pCard_card .pCard_back a i:hover{
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
