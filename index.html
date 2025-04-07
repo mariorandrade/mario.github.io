@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css" />
-    <title>Mario Andrade - Outsystems Front-end developer</title>
-</head>
-<body>
-    <div class="pCard_card">
-            
-        <div class="pCard_up">
-            <div class="pCard_text">
-                <h2>Mario Andrade</h2>
-                <p>Outsystems Frontend Developer</p>
-            </div>
-            
-            <div class="pCard_add"><i class="fa fa-plus fa-plus"></i></div>
-        </div>
-       
-        
-        <div class="pCard_back">
-            <a href="https://www.linkedin.com/in/mariorandrade/" target="_blank"><i class="fa fa-linkedin fa-2x fa-fw"></i></a>
-            <a href="https://medium.com/@mariorandrade/" target="_blank"><i class="fa fa-medium fa-2x fa-fw"></i></a>
-            <p><a href="https://www.outsystems.com/profile/r9a7thphji/overview/" target="_blank">
-                <img src="images/neo.png" alt="Outsystems" title="Outsystems">
-            </a></p>
-        </div>  
-        
-    </div>
-    <script type="text/javascript">
-       var btn = document.querySelector('.pCard_add');
-       var card = document.querySelector('.pCard_card');
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="v2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
 
-       btn.addEventListener('click', function(e) {
-        card.classList.toggle('pCard_on');
+    <title>Mario Andrade - Outsystems Front-end Engineer</title>
+  </head>
+  <body>
+    <main class="js">
+      <header>
+        <h1 class="heading">Hello! I'm <b>M&aacute;rio</b></h1>
+      </header>
+      <div class="content-primary">
+        <h2>
+          A <b class="highlight">tech leader</b> passionate about
+          <b class="highlight">mentoring high-performance teams</b> and crafting
+          <b class="highlight">user-centric</b> digital experiences.
+        </h2>
+      </div>
+      <!-- /content primary -->
 
-        btn.querySelector('i').classList.toggle('fa-minus');
-       })
-    </script>
-</body>
+      <div class="content-secondary">
+        <h3>
+          With a focus on fueling innovation I leverage my expertise in
+          <span class="highlight">OutSystems</span> to deliver exceptional
+          results.
+        </h3>
+      </div>
+      <!-- /content-secondary -->
+
+      <div class="social">
+        <a href="https://www.linkedin.com/in/mariorandrade/" target="_blank">
+          LinkedIn
+        </a>
+        <a href="https://medium.com/@mariorandrade" target="_blank"> Medium</a>
+      </div>
+    </main>
+  </body>
 </html>
