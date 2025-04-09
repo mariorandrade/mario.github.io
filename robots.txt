@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /imagens/
+
+Sitemap: https://www.marioruiandrade.com/sitemap.xml
